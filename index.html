@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HAPPY BIRTHDAY</title>
+    <title>Happy Chinese Valentine's Day</title>
     <style>
         * {
             margin: 0;
@@ -34,7 +34,7 @@
             margin-left: -100vw;
         }
 
-        .happy-birthday__container {
+        .happy__container {
             position: absolute;
             top: 130px;
             display: flex;
@@ -44,7 +44,7 @@
             transition: all 2s;
         }
 
-        .happy-birthday__container>div {
+        .happy__container>div {
             height: 100px;
             width: 100px;
             margin: 0 10px;
@@ -199,7 +199,7 @@
 
 <body>
     <div class="container">
-        <div class="happy-birthday__container">
+        <div class="happy__container">
             <div id="sheng"></div>
             <div id="ri"></div>
             <div id="kuai"></div>
@@ -385,7 +385,7 @@
                 await writer.animateCharacter();
             }
 
-            document.getElementsByClassName('happy-birthday__container')[0].style.opacity = 0;
+            document.getElementsByClassName('happy__container')[0].style.opacity = 0;
             fireRandom();
             setInterval(() => {
                 fireRandom();
